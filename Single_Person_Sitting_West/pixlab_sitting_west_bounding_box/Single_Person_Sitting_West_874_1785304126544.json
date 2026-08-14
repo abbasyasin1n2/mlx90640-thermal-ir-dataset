@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 50.5,
+                "y": 51
+            },
+            {
+                "x": 165.5,
+                "y": 51
+            },
+            {
+                "x": 165.5,
+                "y": 240
+            },
+            {
+                "x": 50.5,
+                "y": 240
+            }
+        ],
+        "rectMask": {
+            "xMin": 50.5,
+            "yMin": 51,
+            "width": 115,
+            "height": 189
+        },
+        "labels": {
+            "labelName": "sitting-west",
+            "labelColor": "#00ff62",
+            "labelColorRGB": "0,255,98",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 108,
+            "y": 145.5
+        },
+        "contentType": "rect"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 73.5,
+                "y": 53
+            },
+            {
+                "x": 176.5,
+                "y": 53
+            },
+            {
+                "x": 176.5,
+                "y": 240
+            },
+            {
+                "x": 73.5,
+                "y": 240
+            }
+        ],
+        "rectMask": {
+            "xMin": 73.5,
+            "yMin": 53,
+            "width": 103,
+            "height": 187
+        },
+        "labels": {
+            "labelName": "standing-west",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 125,
+            "y": 146.5
+        },
+        "contentType": "rect"
+    }
+]

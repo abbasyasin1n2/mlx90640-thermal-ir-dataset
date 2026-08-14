@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 131.5,
+                "y": 6
+            },
+            {
+                "x": 320,
+                "y": 6
+            },
+            {
+                "x": 320,
+                "y": 156
+            },
+            {
+                "x": 131.5,
+                "y": 156
+            }
+        ],
+        "rectMask": {
+            "xMin": 131.5,
+            "yMin": 6,
+            "width": 188.5,
+            "height": 150
+        },
+        "labels": {
+            "labelName": "lying-east",
+            "labelColor": "#ff0000",
+            "labelColorRGB": "255,0,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 225.75,
+            "y": 81
+        },
+        "contentType": "rect"
+    }
+]

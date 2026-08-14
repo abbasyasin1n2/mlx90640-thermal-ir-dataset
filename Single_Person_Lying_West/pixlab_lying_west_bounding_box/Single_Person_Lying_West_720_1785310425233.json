@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 58.5,
+                "y": 10
+            },
+            {
+                "x": 320,
+                "y": 10
+            },
+            {
+                "x": 320,
+                "y": 226
+            },
+            {
+                "x": 58.5,
+                "y": 226
+            }
+        ],
+        "rectMask": {
+            "xMin": 58.5,
+            "yMin": 10,
+            "width": 261.5,
+            "height": 216
+        },
+        "labels": {
+            "labelName": "lying-west",
+            "labelColor": "#ff3700",
+            "labelColorRGB": "255,55,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 189.25,
+            "y": 118
+        },
+        "contentType": "rect"
+    }
+]

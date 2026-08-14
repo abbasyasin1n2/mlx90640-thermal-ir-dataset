@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 142.5,
+                "y": 21
+            },
+            {
+                "x": 297.5,
+                "y": 21
+            },
+            {
+                "x": 297.5,
+                "y": 224
+            },
+            {
+                "x": 142.5,
+                "y": 224
+            }
+        ],
+        "rectMask": {
+            "xMin": 142.5,
+            "yMin": 21,
+            "width": 155,
+            "height": 203
+        },
+        "labels": {
+            "labelName": "sitting-center",
+            "labelColor": "#001aff",
+            "labelColorRGB": "0,26,255",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 220,
+            "y": 122.5
+        },
+        "contentType": "rect"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 149.5,
+                "y": 33
+            },
+            {
+                "x": 271.5,
+                "y": 33
+            },
+            {
+                "x": 271.5,
+                "y": 240
+            },
+            {
+                "x": 149.5,
+                "y": 240
+            }
+        ],
+        "rectMask": {
+            "xMin": 149.5,
+            "yMin": 33,
+            "width": 122,
+            "height": 207
+        },
+        "labels": {
+            "labelName": "standing-east",
+            "labelColor": "#84ff00",
+            "labelColorRGB": "132,255,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 210.5,
+            "y": 136.5
+        },
+        "contentType": "rect"
+    }
+]

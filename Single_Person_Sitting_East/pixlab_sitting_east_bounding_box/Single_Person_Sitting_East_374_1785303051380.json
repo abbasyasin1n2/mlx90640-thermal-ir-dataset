@@ -1,0 +1,39 @@
+[
+    {
+        "content": [
+            {
+                "x": 188.5,
+                "y": 36
+            },
+            {
+                "x": 311.5,
+                "y": 36
+            },
+            {
+                "x": 311.5,
+                "y": 240
+            },
+            {
+                "x": 188.5,
+                "y": 240
+            }
+        ],
+        "rectMask": {
+            "xMin": 188.5,
+            "yMin": 36,
+            "width": 123,
+            "height": 204
+        },
+        "labels": {
+            "labelName": "sitting-east",
+            "labelColor": "#e1ff00",
+            "labelColorRGB": "225,255,0",
+            "visibility": true
+        },
+        "labelLocation": {
+            "x": 250,
+            "y": 138
+        },
+        "contentType": "rect"
+    }
+]
