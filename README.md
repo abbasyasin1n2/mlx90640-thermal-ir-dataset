@@ -227,7 +227,7 @@ If a key does not match, build it from the PNG filename stem instead of guessing
   series    = {Lecture Notes in Networks and Systems},
   publisher = {Springer},
   year      = {2026},
-  note      = {Dataset: https://github.com/abbasyasin1n2/dataset-IR}
+  note      = {Dataset: https://github.com/abbasyasin1n2/mlx90640-thermal-ir-dataset}
 }
 ```
 
