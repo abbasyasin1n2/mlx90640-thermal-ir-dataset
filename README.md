@@ -41,6 +41,10 @@ This release does.
 | Frames | **3108** (1533 empty, 1575 occupied scenarios) |
 | Scenarios | 9 folders (see below) |
 | Occupants | one person at a time, or none |
+| Volunteers | three adult males, 157–165 cm, in T-shirts and trousers, taking turns |
+| Mounting | ceiling, facing down (plan view of the floor), one room, one placement |
+| Recording | one day, about 3.5 h in total; one frame every 2.1–2.6 s |
+| Ambient | median frame temperature 32.9–33.6 °C in every scenario |
 | Classification | 8 binary labels per frame (presence + 3 postures × 2 halves) |
 | Localisation | axis-aligned box \([x_1, y_1, x_2, y_2]\) on a 10× upscaled canvas |
 | Visualisation | PNG heatmap per frame |
@@ -154,6 +158,10 @@ y2' = (y2 / 10) / 24
 
 which is the same as dividing by 320 and 240.
 
+### Annotation procedure
+
+One author drew every box and set every label; a second author reviewed all frames with the boxes overlaid and corrected misplaced ones. Posture follows from the scripted scenario, so annotator judgement enters mainly through box placement and through occupancy as a volunteer enters or leaves the view. No frame was labelled twice independently, so inter-annotator agreement is not available.
+
 ---
 
 ## Thermal frames (`.joblib`)
@@ -210,7 +218,8 @@ If a key does not match, build it from the PNG filename stem instead of guessing
 ## What this dataset is not
 
 - Not multi-occupant. Four box coordinates cannot describe two bodies.
-- Not multi-room or multi-mount. One room, one sensor placement.
+- Not multi-room or multi-mount. One room, one ceiling placement.
+- Not demographically diverse. Three male volunteers of similar build and clothing.
 - Not a privacy proof. 768 pixels remove a recoverable face; they do not make the stream anonymous in a formal sense.
 
 ---
@@ -231,8 +240,6 @@ If a key does not match, build it from the PNG filename stem instead of guessing
 }
 ```
 
-Update the `note` URL to whatever repository name you actually create.
-
 ---
 
 ## Authors
@@ -249,7 +256,7 @@ Department of Computer Science and Engineering, Independent University, Banglade
 
 ## License
 
-Released for academic use. If you republish or train on it, cite the paper above. For a formal licence on GitHub, CC BY 4.0 is a reasonable default (attribution required, commercial use allowed). Add a `LICENSE` file when you create the repository.
+Released for academic use. If you republish or train on it, cite the paper above.
 
 ## Acknowledgements
 
